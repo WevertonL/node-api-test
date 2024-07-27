@@ -66,7 +66,9 @@ app.get('/usuarios', async (request, response) => {
 
 })
 
-app.listen(3333)
+app.listen(3333, () => {
+  console.log('Servidor rodando na porta 3333');
+});
 
 /*
 177.37.195.236 
